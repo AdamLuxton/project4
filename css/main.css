@@ -1,0 +1,16 @@
+/* Scss Document */
+.hidden {
+  display: none;
+}
+
+#container {
+  .margin: 0 suto;
+  width: 960px;
+  background-color: #fff;
+}
+
+body {
+  background-color: #a3a3a3;
+}
+
+/*# sourceMappingURL=main.css.map */

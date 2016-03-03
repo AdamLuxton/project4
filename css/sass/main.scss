@@ -1,0 +1,23 @@
+/* Scss Document */
+
+//Variables
+$brand-color: #efefef;
+$primary-color: #333;
+$mainFont: 'Titillium Web',Arial, sans-serif;
+
+.hidden
+{
+	display:none;
+}
+
+#container
+{
+	.margin: 0 suto;
+	width: 960px;
+	background-color: #fff;
+}
+
+body
+{
+	background-color: darken($brand-color, 30%);
+}
