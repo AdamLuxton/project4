@@ -10,7 +10,17 @@
 }
 
 body {
-  background-color: #a3a3a3;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+    width: 100%;
+    background-color: #131516;
 }
 
 /*# sourceMappingURL=main.css.map */
