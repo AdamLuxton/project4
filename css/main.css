@@ -8,7 +8,7 @@ body {
   height: 100%;
   position: absolute;
   width: 100%;
-  background: #83D3EB; }
+  background: #58585A; }
 
 .siteWrapper {
   background: url(../images/background.jpg) no-repeat center;
@@ -143,7 +143,7 @@ body {
 #inputEmail {
   margin-bottom: 10px; }
 
-#footersection {
+#footersection p {
   font-weight: 700;
   margin-bottom: 3px; }
 
