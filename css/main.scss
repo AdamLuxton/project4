@@ -1,0 +1,118 @@
+/* Scss Document */
+
+//Variables
+$brand-color: #efefef;
+$primary-color: #333;
+$lato: 'Lato', sans-serif;
+
+.hidden
+{
+	display:none;
+}
+
+body
+{
+	padding:0;
+	margin: 0;
+	height:100%;
+	position: absolute;
+	width: 100%;
+
+}
+
+.siteWrapper {
+	background: url(../images/background.jpg) no-repeat center;
+	background-size: cover;
+    margin:0;
+    padding:0;
+    height:100%;
+    background-attachment: fixed;
+}
+
+.jumbotron
+{
+	height:100%;
+	background: url(../images/fisherman.png) no-repeat center;
+	background-size: cover;
+	padding: 80px 0 0 0;
+	margin: 0;
+}
+
+#infoBar
+{
+	background: rgba(0,0,0,0.4);
+	margin:0;
+	padding:40px;
+	text-align: center;
+	height:100%;
+}
+
+#infoBar h1
+{
+	font-size: 40px;
+	margin:0;
+	font-family: $lato;
+	font-weight: 400;
+	color: #83D3EB;
+}
+
+#infoBar h2
+{
+	margin-top:5px;
+	font-size: 20px;
+	color: #FFF;
+	font-family: $lato;
+}
+
+#pesciLogo
+{
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+
+	#infoBar h2
+{ margin-bottom: 50px;
+}
+
+	#pesciLogo
+{
+	height: 300px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+
+.jumbotron
+{
+	padding-top: 40px;
+}
+
+#infoBar{
+margin-left: 200px;
+padding-top: 70px;
+}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+.jumbotron
+{
+	padding-top: 100px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+	.jumbotron
+{
+	padding-top: 150px;
+}
+}
