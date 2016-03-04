@@ -5,8 +5,9 @@ $brand-color: #efefef;
 $primary-color: #333;
 $lato: 'Lato', sans-serif;
 $blue: #83D3EB;
+$darkgrey: #58585A;
 
-.hidden
+.hidden 
 {
 	display:none;
 }
@@ -73,11 +74,136 @@ body
 	width: 200px;
 }
 
+#shoppingButton
+{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	margin: 0;
+
+}
+
+#shoppingCart
+{
+	font-size: 40px;
+	margin: 0;
+}
+
+.container-fluid
+{
+	padding: 0;
+	background: $darkgrey;
+}
+.container
+{
+	padding: 0;
+	background: none;
+}
+
 #section2
 {
 	background: none;
 	color: #FFF;
 	text-align: center;
+	width: 100%; 
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#section2 h1
+{
+	margin-top: 80px;
+	font-family: $lato;
+}
+
+#section2 p
+{
+	margin-bottom: 100px;
+	font-size: 20px;
+	font-family: $lato;
+	font-weight: 200;
+}
+
+#section3
+{
+	background: #FFF;
+	margin:0;
+}
+
+.thumbBox
+{
+	margin:0;
+	height: 300px;
+	text-align: center;
+	padding: 50px 0 0 0;
+}
+
+.thumbBox h1
+{
+	background: rgba(0,0,0,0.4);
+	color: #FFF;
+	font-family: $lato;
+	padding: 10px 20px 20px 10px;
+}
+
+#box1{
+background: url(../images/thumb1.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#box2{
+background: url(../images/thumb2.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#box3{
+background: url(../images/thumb3.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#shopSection
+{background: $blue;
+padding-top: 20px;
+}
+
+#contactSection
+{
+	background: $darkgrey;
+	padding: 40px;
+	font-family: $lato;
+	text-align: center;
+	color: #FFF;
+	margin: 0;
+}
+
+#contactSection h1
+{
+	margin-bottom:20px;
+}
+
+#submitButton
+{
+	float: left;
+	font-size: 20px;
+	margin-left:15px;
+}
+
+#footerSection
+{
+	background: #333;
+	padding: 40px;
+	color: #FFF;
+}
+
+#inputEmail{
+	margin-bottom:10px;
+}
+
+#footersection
+{
+	font-weight: 700;
+	margin-bottom:3px;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -108,6 +234,24 @@ margin-left: 200px;
 padding-top: 70px;
 }
 
+.thumbBox
+{
+	height: 350px;
+	padding-top: 70px;
+}
+
+
+#inputEmail{
+	margin-bottom:0;
+}
+
+#iconSection 
+{
+	float: right;
+	text-align: right;
+}
+
+
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -116,12 +260,20 @@ padding-top: 70px;
 {
 	padding-top: 100px;
 }
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 	.jumbotron
 {
+	padding-top: 150px;
+}
+
+.thumbBox
+{
+	height: 500px;
 	padding-top: 150px;
 }
 }
