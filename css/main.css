@@ -7,7 +7,8 @@ body {
   margin: 0;
   height: 100%;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  background: #83D3EB; }
 
 .siteWrapper {
   background: url(../images/background.jpg) no-repeat center;
@@ -49,6 +50,103 @@ body {
   height: 200px;
   width: 200px; }
 
+#shoppingButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0; }
+
+#shoppingCart {
+  font-size: 40px;
+  margin: 0; }
+
+.container-fluid {
+  padding: 0;
+  background: #58585A; }
+
+.container {
+  padding: 0;
+  background: none; }
+
+#section2 {
+  background: none;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+#section2 h1 {
+  margin-top: 80px;
+  font-family: "Lato", sans-serif; }
+
+#section2 p {
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200; }
+
+#section3 {
+  background: #FFF;
+  margin: 0; }
+
+.thumbBox {
+  margin: 0;
+  height: 300px;
+  text-align: center;
+  padding: 50px 0 0 0; }
+
+.thumbBox h1 {
+  background: rgba(0, 0, 0, 0.4);
+  color: #FFF;
+  font-family: "Lato", sans-serif;
+  padding: 10px 20px 20px 10px; }
+
+#box1 {
+  background: url(../images/thumb1.jpg) no-repeat center;
+  background-size: cover; }
+
+#box2 {
+  background: url(../images/thumb2.jpg) no-repeat center;
+  background-size: cover; }
+
+#box3 {
+  background: url(../images/thumb3.jpg) no-repeat center;
+  background-size: cover; }
+
+#shopSection {
+  background: #83D3EB;
+  padding-top: 20px; }
+
+#contactSection {
+  background: #58585A;
+  padding: 40px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #FFF;
+  margin: 0; }
+
+#contactSection h1 {
+  margin-bottom: 20px; }
+
+#submitButton {
+  float: left;
+  font-size: 20px;
+  margin-left: 15px; }
+
+#footerSection {
+  background: #333;
+  padding: 40px;
+  color: #FFF; }
+
+#inputEmail {
+  margin-bottom: 10px; }
+
+#footersection {
+  font-weight: 700;
+  margin-bottom: 3px; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
@@ -66,7 +164,18 @@ body {
 
   #infoBar {
     margin-left: 200px;
-    padding-top: 70px; } }
+    padding-top: 70px; }
+
+  .thumbBox {
+    height: 350px;
+    padding-top: 70px; }
+
+  #inputEmail {
+    margin-bottom: 0; }
+
+  #iconSection {
+    float: right;
+    text-align: right; } }
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   .jumbotron {
@@ -74,6 +183,10 @@ body {
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   .jumbotron {
+    padding-top: 150px; }
+
+  .thumbBox {
+    height: 500px;
     padding-top: 150px; } }
 
 /*# sourceMappingURL=main.css.map */
