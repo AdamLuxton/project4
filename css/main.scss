@@ -4,6 +4,7 @@
 $brand-color: #efefef;
 $primary-color: #333;
 $lato: 'Lato', sans-serif;
+$blue: #83D3EB;
 
 .hidden
 {
@@ -17,6 +18,7 @@ body
 	height:100%;
 	position: absolute;
 	width: 100%;
+	background: $blue;
 
 }
 
@@ -53,7 +55,7 @@ body
 	margin:0;
 	font-family: $lato;
 	font-weight: 400;
-	color: #83D3EB;
+	color: $blue;
 }
 
 #infoBar h2
@@ -69,6 +71,13 @@ body
 	margin: 0 auto;
 	height: 200px;
 	width: 200px;
+}
+
+#section2
+{
+	background: none;
+	color: #FFF;
+	text-align: center;
 }
 
 /* Extra small devices (phones, less than 768px) */

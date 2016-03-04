@@ -7,7 +7,8 @@ body {
   margin: 0;
   height: 100%;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  background: #83D3EB; }
 
 .siteWrapper {
   background: url(../images/background.jpg) no-repeat center;
@@ -48,6 +49,11 @@ body {
   margin: 0 auto;
   height: 200px;
   width: 200px; }
+
+#section2 {
+  background: none;
+  color: #FFF;
+  text-align: center; }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
